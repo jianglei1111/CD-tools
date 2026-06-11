@@ -1,8 +1,8 @@
-# CD-tools 🧰
+# CDcode / CD-tools 🚀
 
-CD-tools 是 CDcode 中转站的工具包仓库，用来集中存放面向 Codex 的本地中转工具。
+CDcode 是一个面向 Codex 的本地中转站，负责把 QQ、微信、图片生成等入口接入到 Codex 工作流里，让消息、文件、图片和任务可以更自然地交给 Codex 处理。
 
-CDcode 是中转站的名字；这个仓库负责放它需要的工具包。目标很简单：让 QQ、微信、图片生成等入口可以更顺手地接入本地 Codex 工作流。✨
+CD-tools 是 CDcode 的工具包仓库，用来集中存放这些中转能力所需的安装包、桥接器和技能包。✨
 
 ## 工具一览
 
@@ -54,4 +54,4 @@ CD-tools/
 
 ## 一句话
 
-CD-tools 存放 CDcode 的工具包，让中转站可以把聊天、文件和图片任务接到 Codex。⚡
+CDcode 负责中转，CD-tools 负责存放工具包。⚡
