@@ -2,7 +2,7 @@
 
 ## 简介
 
-这是 CDcode 的图片生成与编辑技能包。安装后，Codex 可以通过 Chedan image2 通道生成图片、编辑图片和处理视觉素材。
+这是适用于 CDcode 中转站的图片生成与编辑技能包。安装后，Codex 可以通过 Chedan image2 通道生成图片、编辑图片和处理视觉素材。
 
 ## 安装方法
 
@@ -19,4 +19,3 @@ python -m pip install httpx
 ```powershell
 $env:IMAGE2_API_KEY="sk-..."
 ```
-
