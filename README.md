@@ -2,6 +2,12 @@
 
 这里是 CDcode 工具生态的小主页。
 
+欢迎访问这些入口了解 CDcode 和工具更新：
+
+- 🌐 官网：[www.chedankj.com](https://www.chedankj.com)
+- ✍️ 博客：[blog.chedankj.com](https://blog.chedankj.com)
+- 🐙 GitHub：[jianglei1111/CD-tools](https://github.com/jianglei1111/CD-tools)
+
 不把所有东西都塞成一个大仓库，而是把每个工具放在自己的开源仓库里独立维护；这个仓库负责做一个清爽的入口：看介绍、找下载、进源码，一眼到位。
 
 ## 工具小目录 🚀
