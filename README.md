@@ -8,7 +8,7 @@
 - ✍️ 博客：[blog.chedankj.com](https://blog.chedankj.com)
 - 🐙 GitHub：[jianglei1111/CD-tools](https://github.com/jianglei1111/CD-tools)
 
-不把所有东西都塞成一个大仓库，而是把每个工具放在自己的开源仓库里独立维护；这个仓库负责做一个清爽的入口：看介绍、找下载、进源码，一眼到位。
+这个仓库只做工具索引，不直接维护安装包下载链接。每个工具都有自己的源码仓库，安装包、更新日志和发布版本都以对应源码仓库的 Releases 为准，避免这里的链接和实际版本不同步。
 
 ## 工具小目录 🚀
 
@@ -16,18 +16,15 @@
 
 手机继续遥控本机 Codex 的桌面桥接工具。适合在微信或 QQ 上继续给电脑里的 Codex 会话发需求、传图片、传文件。
 
-- 🪟 Windows 安装包：[codex-to-phone-0.1.0-setup.exe](https://github.com/jianglei1111/codex-to-phone/raw/main/downloads/codex-to-phone-0.1.0-setup.exe)
 - 🧑‍💻 源码仓库：[jianglei1111/codex-to-phone](https://github.com/jianglei1111/codex-to-phone)
+- 📦 下载方式：进入源码仓库后查看 Releases 发布版本
 
 ### 🎨 CD-image2
 
 围绕 image2 的生图、修图和批量图片生成工具箱。既有桌面 GUI，也有 Codex skill 和命令行脚本。
 
-- 📦 最新发布：[CD-image2 Releases](https://github.com/jianglei1111/CD-image2/releases/latest)
-- 🪟 Windows 版：[chedan-image2-gui-windows.exe](https://github.com/jianglei1111/CD-image2/raw/main/downloads/chedan-image2-gui-windows.exe)
-- 🍎 macOS 版：[Chedan-Image2-macOS.dmg](https://github.com/jianglei1111/CD-image2/raw/main/downloads/Chedan-Image2-macOS.dmg)
-- 🧩 Codex skill：[chedan-image2-skill.zip](https://github.com/jianglei1111/CD-image2/raw/main/downloads/chedan-image2-skill.zip)
 - 🧑‍💻 源码仓库：[jianglei1111/CD-image2](https://github.com/jianglei1111/CD-image2)
+- 📦 下载方式：进入源码仓库后查看 Releases 发布版本
 
 ## 📱 codex-to-phone
 
@@ -44,10 +41,9 @@
 - 💬 用微信 / QQ 当作移动端入口。
 - 📂 按项目目录绑定不同的 Codex 历史会话。
 
-前往：
+源码仓库：
 
-- [项目主页](https://github.com/jianglei1111/codex-to-phone)
-- [下载安装包](https://github.com/jianglei1111/codex-to-phone/raw/main/downloads/codex-to-phone-0.1.0-setup.exe)
+- [jianglei1111/codex-to-phone](https://github.com/jianglei1111/codex-to-phone)
 
 ## 🎨 CD-image2
 
@@ -61,19 +57,18 @@
 
 它支持文生图、图生图、图片编辑、批量队列、并发生成和本地结果保存。接口固定访问 `https://sp.chedankj.com/v1`，使用前需要准备 image 分组的 API Key。
 
-前往：
+源码仓库：
 
-- [项目主页](https://github.com/jianglei1111/CD-image2)
-- [最新 Release](https://github.com/jianglei1111/CD-image2/releases/latest)
-- [Codex skill 源码](https://github.com/jianglei1111/CD-image2/tree/main/cd-image2)
+- [jianglei1111/CD-image2](https://github.com/jianglei1111/CD-image2)
 
 ## 这个仓库怎么用 🧭
 
-- 想直接用工具：点上面的安装包或 Release。
-- 想看源码：进对应的子仓库。
-- 想排查问题：优先看子仓库 README 和 Issues。
+- 想了解工具：看这个 README 的简要介绍。
+- 想看源码：进入对应工具的源码仓库。
+- 想下载安装包：进入对应源码仓库后查看 Releases 发布版本。
+- 想排查问题：优先看对应源码仓库的 README 和 Issues。
 - 想新增工具：给这个主页加一个入口，再把源码和安装包放到独立仓库维护。
 
 ## 下载小提醒 🔐
 
-安装 `.exe`、`.dmg`、`.pkg`、`.zip` 这类文件时，建议只从上面列出的 GitHub 官方链接进入。Windows 或 macOS 出现安全提醒时，先确认下载来源，再继续安装。
+安装 `.exe`、`.dmg`、`.pkg`、`.zip` 这类文件时，请以对应源码仓库的 Releases 页面为准。Windows 或 macOS 出现安全提醒时，先确认下载来源，再继续安装。
