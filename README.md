@@ -26,6 +26,13 @@
 - 🧑‍💻 源码仓库：[jianglei1111/CD-image2](https://github.com/jianglei1111/CD-image2)
 - 📦 下载方式：进入源码仓库后查看 Releases 发布版本
 
+### 🍌 CD-banana
+
+面向 Codex 的 Gemini 图片生成与编辑 Skill，支持文生图、参考图编辑，以及 `1K`、`2K`、`4K` 图片输出。
+
+- 🧑‍💻 源码仓库：[jianglei1111/CD-banana](https://github.com/jianglei1111/CD-banana)
+- 📦 下载方式：进入源码仓库后查看 Releases 发布版本
+
 ## 📱 codex-to-phone
 
 ![codex-to-phone 界面预览](https://raw.githubusercontent.com/jianglei1111/codex-to-phone/main/docs/images/codex-to-phone-dashboard.png)
@@ -60,6 +67,21 @@
 源码仓库：
 
 - [jianglei1111/CD-image2](https://github.com/jianglei1111/CD-image2)
+
+## 🍌 CD-banana
+
+`CD-banana` 是一个面向 Codex 的 Gemini 图片生成与编辑 Skill，可以直接在 Codex 对话中完成图片创作。
+
+它支持这些能力：
+
+- ✨ 根据文字描述生成图片。
+- 🖼️ 使用参考图进行图片编辑。
+- 🔍 输出 `1K`、`2K`、`4K` 不同分辨率的图片。
+- 🧩 安装为 Codex Skill 后，在对话中直接调用 `$cd-banana`。
+
+源码仓库：
+
+- [jianglei1111/CD-banana](https://github.com/jianglei1111/CD-banana)
 
 ## 这个仓库怎么用 🧭
 
